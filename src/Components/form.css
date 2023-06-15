@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.input-form input {
+    width: 100%;
+    padding: 1rem;
+    background: transparent;
+    border: 2px solid rgb(140, 199, 238);
+    resize: none;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 2px solid rgb(140, 199, 238);
+    height: 3rem;
+}
+
+.input-form {
+    padding-bottom: 3rem;
+}

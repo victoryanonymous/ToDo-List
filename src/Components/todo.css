@@ -1,0 +1,17 @@
+.container {
+    background: linear-gradient(to right bottom, rgb(51, 206, 172),rgb(233, 210, 210));
+}
+
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.todolist-header {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

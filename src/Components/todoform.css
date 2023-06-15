@@ -1,0 +1,34 @@
+.todo-input-form  li {
+   display: flex;
+   flex-direction: row;
+   padding-bottom: 2rem;
+}
+
+li input{
+    width: 100%;
+    padding: 1rem;
+    background: transparent;
+    border: 2px solid rgb(140, 199, 238);
+    resize: none;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+ }
+
+.logo {
+    text-align: justify;
+    padding-top: 0.8rem;
+    margin-top: 5px;
+}
+
+.logo-delete:hover {
+    color: red;
+}
+
+.logo-update:hover {
+    color: var(--color-primary);
+}
+
+.logo-complete:hover {
+    color: green;
+}
